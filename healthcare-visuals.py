@@ -121,7 +121,7 @@ dailySpecific
 dailySpecific[dailySpecific['COUNTY'] == 'FULTON']
 
 vis3 = seaborn.lineplot(data=dailySpecific, x='DATESTAMP_MOD_DAY', y='C_Cum')
-vis3 = seaborn.lineplot(data=dailySpecific, x='DATESTAMP_MOD_DAY', y='C_Cum', hue='COUNTY')
+vis4 = seaborn.lineplot(data=dailySpecific, x='DATESTAMP_MOD_DAY', y='C_Cum', hue='COUNTY')
 
 plotly3 = px.bar(dailySpecific, x='DATESTAMP_MOD_DAY', y='C_Cum', color='COUNTY')
 plotly3.show()
