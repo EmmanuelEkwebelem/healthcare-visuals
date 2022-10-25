@@ -155,7 +155,7 @@ plotly8 = px.bar(dailySpecific,
                      'newHospandDeathCovid': "Total Count"
                  },
                  barmode='group')
-plotly8.upandasate_layout(
+plotly8.update_layout(
     xaxis=dict(
         tickmode='linear',
         type='category'
